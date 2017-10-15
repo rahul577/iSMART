@@ -112,7 +112,7 @@ public class FragmentComplaint extends Fragment{
 
                     intent.putExtra(Intent.EXTRA_SUBJECT, "Report regarding women harrasment");
                     intent.putExtra(Intent.EXTRA_TEXT, "Sir the following picture acts as a proof of the ongoing women harassment activities in the region "+YourLocation);
-
+                    intent.putExtra(Intent.EXTRA_STREAM,Uri.parse(ImageUri));
                     startActivity(Intent.createChooser(intent, "Send Email"));
                 }
                 else if(value.equals("Medical Emergency")){
@@ -121,7 +121,7 @@ public class FragmentComplaint extends Fragment{
                     intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"emergencyApolloHospital@gmail.com"});
                     intent.putExtra(Intent.EXTRA_SUBJECT, "Emergency due to road accident");
                     intent.putExtra(Intent.EXTRA_TEXT, "Sir the following image is of a road accident at the location "+YourLocation);
-
+                    intent.putExtra(Intent.EXTRA_STREAM,Uri.parse(ImageUri));
                     startActivity(Intent.createChooser(intent, "Send Email"));
                 }
             }

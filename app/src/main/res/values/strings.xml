@@ -51,4 +51,51 @@
     <string name="ocr_success">Text read successfully</string>
     <string name="ocr_failure">No text captured</string>
     <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="about">"
+ ++++++++++++++++++++++++++++++++++++++++++++
+ BEST COMPANION FOR THE PEOPLE OF A SMART CITY
+ ++++++++++++++++++++++++++++++++++++++++++++
+
+  OUR FEATURES -:
+
+  LEARN-:
+  - Find the best tutorial videos from our rich list of videos
+    provided for different categories in our app.
+  - Find the right tutor from our list where we have provided
+    a list of tutors with their experience and their field of
+    expertise, you can directly talk to your teacher just by
+    clicking the call button.
+  - Find the right study material from our app and some
+    other links for your learning.
+
+  KEEP YOUR CITY SAFE-:
+  - If something wrong is happpening around you, you can
+    just click a picture, select it from the gallery, select the
+    respective department and then by pressing the send
+    button you will be directed to gmail where email
+    address, subject, the body of the email will be pre
+    feeded with the location, and the image will be attached
+    and you can report the issue in just a few clicks.
+
+  FIND OR PROVIDE THE RIGHT SKILL-:
+  - Find the right person to work for you from our list of
+    workers. You can call, send a message or chat with the
+    person if you are low on balance.
+  - If you are good at something and want to work and earn
+    money, you can post yourself just by clicking the +
+    button in the skilled workers page and provide your
+    details.
+
+  SCAN AND READ-:
+  - Have some text and want your phone to read it, just use
+    our scanner. Scan your text then click it and your phone
+    will read it for you.
+
+  FIND HELP IN A DANGEROUS SITUATION-:
+  - Notify your friends and family if you are stuck in a
+    dangerous situation by clicking the volume down button
+    twice, your selected contacts will receive a call from
+    our IVR service and  a message with your location."
+
+  </string>
 </resources>

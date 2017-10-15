@@ -34,7 +34,9 @@
         <activity android:name=".tutor" />
         <activity android:name=".WebView" />
         <activity android:name=".QuizActivity" />
-        <activity android:name=".OcrCaptureActivity"></activity>
+        <activity android:name=".OcrCaptureActivity" />
+        <activity android:name=".About_App"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

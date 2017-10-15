@@ -27,6 +27,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 
+import static com.example.akshay.parth.R.id.about_menu;
 import static com.example.akshay.parth.R.id.sign_out_menu;
 
 
@@ -147,6 +148,10 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case sign_out_menu:
                 signOut();
+                return true;
+            case about_menu:
+                Intent i = new Intent(this, About_App.class);
+                startActivity(i);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
